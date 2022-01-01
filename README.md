@@ -21,7 +21,7 @@
   <h1 style="font-weight:bold" align="center">Boo! Widgets</h1>
 
   <p align="center">
-    Javascript library for embedding "Trade in Boo" Widgets on your website
+    Javascript library for embedding deep linking Widgets on your website
   
   </p>
 </p>
@@ -33,7 +33,7 @@
 
 ## Information
 
-This repository contains Javascript library in purpose to embed "Trade in Boo!" widgets easily in specific website served via <a href="https://jsdelivr.com">jsDelivr</a>.
+This repository contains Javascript library in purpose to embed deep linking widgets easily on a website served via <a href="https://jsdelivr.com">jsDelivr</a>.
 
 ## Trade Widget
 Append this tag on your website
