@@ -58,7 +58,7 @@ Use this tag to generate Boo Transfer Widget
 ```html
 <bootransferwidget></bootransferwidget>
 ```
-Format to;token;amount separated with semicolon per parameter
+Each parameter is separated by semicolon -> to;token;amount
 ```html
 //Example with BUMooN tokens
  <bootransferwidget>0x0000000000000000000000000000000000000000;0x3aeff4e27e1f9144ed75ba65a80bdfee345f413e;100</bootransferwidget>
