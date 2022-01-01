@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://github.com/bumoonio/BooWidgets">
-    <img src="example.png" alt="Logo" width="533" height="300">
+    <img src="example.png" alt="Logo" width="250" height="120">
   </a>
 
   <h1 style="font-weight:bold" align="center">Boo! Widgets</h1>
@@ -36,20 +36,29 @@
 This repository contains Javascript library in purpose to embed "Trade in Boo!" widgets easily in specific website served via <a href="https://jsdelivr.com">jsDelivr</a>.
 
 ## How to use?
+Append this tag on your website
+```js
+<script src="https://cdn.jsdelivr.net/gh/bumoonio/BooWidgets/boowidget.js"></script>
+```
+Use this tag to generate BooWidgets
+```html
+<boowidget></boowidget>
+```
+Insert your token address to automatically redirect to Swap page and set your token as the Swap target
+```html
+//Example with BUMooN tokens
+ <boowidget>0x3aeff4e27e1f9144ed75ba65a80bdfee345f413e</boowidget>
+```
+**Note : We encourage you to use checksummed address
 
-This assets repository accommodates basic information tokens and logos that consumed directly by Boo! apps,
-via <a href="https://jsdelivr.com">jsDelivr</a>.
 
 
 
 
 
+## Copyright
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+© 2022 Bumoon.io
 
 
 
@@ -57,16 +66,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-<!-- [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge -->
 [contributors-url]: https://github.com/bumoonio/bumoon/graphs/contributors
-<!-- [forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555 -->
 [linkedin-url]: https://www.linkedin.com/company/bumoon/mycompany/
