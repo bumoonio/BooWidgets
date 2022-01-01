@@ -35,32 +35,46 @@
 
 This repository contains Javascript library in purpose to embed "Trade in Boo!" widgets easily in specific website served via <a href="https://jsdelivr.com">jsDelivr</a>.
 
-## How to use?
+## Trade Widget
 Append this tag on your website
 ```js
-<script src="https://cdn.jsdelivr.net/gh/bumoonio/BooWidgets/BooWidgets.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bumoonio/BooWidgets/BooTrWidgets.js"></script>
 ```
-Use this tag to generate BooWidgets
+Use this tag to generate Boo! Trade Widgets
 ```html
-<boowidget></boowidget>
+<bootradewidget></bootradewidget>
 ```
 Insert your token address to automatically redirect to Swap page and set your token as the Swap target
 ```html
 //Example with BUMooN tokens
- <boowidget>0x3aeff4e27e1f9144ed75ba65a80bdfee345f413e</boowidget>
+ <bootradewidget>0x3aeff4e27e1f9144ed75ba65a80bdfee345f413e</bootradewidget>
+```
+## Transfer Widget
+Append this tag on your website
+```js
+<script src="https://cdn.jsdelivr.net/gh/bumoonio/BooWidgets/BooTxWidgets.js"></script>
+```
+Use this tag to generate Boo Transfer Widget
+```html
+<bootransferwidget></bootransferwidget>
+```
+Format to;token;amount separated with semicolon per parameter
+```html
+//Example with BUMooN tokens
+ <boowidget>0x0000000000000000000000000000000000000000;0x3aeff4e27e1f9144ed75ba65a80bdfee345f413e;100</boowidget>
 ```
 **Note : We encourage you to use checksummed address
 
 ## Customize
-To enable customize, use available direct selector id = BooWidgetSelector
+To enable customize, use available direct selector id = BooTxWidgetSelector / BooTrWidgetSelector
 ```css
-#BooWidgetSelector{
+#BooTrWidgetSelector{
   width : ...
   height : ...
 }
 ```
 ```js
-${'#BooWidgetSelector'}.css('height','...');
+${'#BooTrWidgetSelector'}.css('height','...');
 ```
 
 
