@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://github.com/bumoonio/BooWidgets">
-    <img src="example.png" alt="Logo" width="250" height="120">
+    <img src="example2.png" alt="Logo" width="250" height="120">
   </a>
 
   <h1 style="font-weight:bold" align="center">Boo! Widgets</h1>
