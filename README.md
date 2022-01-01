@@ -51,7 +51,17 @@ Insert your token address to automatically redirect to Swap page and set your to
 ```
 **Note : We encourage you to use checksummed address
 
-
+## Customize
+To enable customize, use available direct selector id = BooWidgetSelector
+```css
+#BooWidgetSelector{
+  width : ...
+  height : ...
+}
+```
+```js
+${'#BooWidgetSelector'}.css('height','...');
+```
 
 
 
