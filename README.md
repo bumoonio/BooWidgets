@@ -38,7 +38,7 @@ This repository contains Javascript library in purpose to embed "Trade in Boo!" 
 ## How to use?
 Append this tag on your website
 ```js
-<script src="https://cdn.jsdelivr.net/gh/bumoonio/BooWidgets/Boowidgets.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bumoonio/BooWidgets/BooWidgets.js"></script>
 ```
 Use this tag to generate BooWidgets
 ```html
