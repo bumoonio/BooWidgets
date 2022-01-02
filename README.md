@@ -38,7 +38,7 @@ This repository contains Javascript library in purpose to embed deep linking wid
 ## Trade Widget
 Append this tag on your website
 ```js
-<script src="https://cdn.jsdelivr.net/gh/bumoonio/BooWidgets/BooTrWidgets.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bumoonio/BooWidgets/BooTrWidget.js"></script>
 ```
 Use this tag to generate Boo! Trade Widgets
 ```html
@@ -52,7 +52,7 @@ Insert your token address to automatically redirect to Swap page and set your to
 ## Transfer Widget
 Append this tag on your website
 ```js
-<script src="https://cdn.jsdelivr.net/gh/bumoonio/BooWidgets/BooTxWidgets.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/bumoonio/BooWidgets/BooTxWidget.js"></script>
 ```
 Use this tag to generate Boo Transfer Widget
 ```html
@@ -66,7 +66,7 @@ Each parameter is separated by semicolon -> to;token;amount
 **Note : We encourage you to use checksummed address
 
 ## Customize
-To enable customize, use available direct selector id = BooTxWidgetSelector / BooTrWidgetSelector
+To enable customize, use available direct selector id = BooTxWidgetSelector / BooTrWidgetSelector, default width = 100%
 ```css
 #BooTrWidgetSelector{
   width : ...
@@ -75,6 +75,11 @@ To enable customize, use available direct selector id = BooTxWidgetSelector / Bo
 ```
 ```js
 ${'#BooTrWidgetSelector'}.css('height','...');
+```
+Best Practice
+```html
+//wrap widget within responsive container
+<div class=".." style="..."><bootransferwidget></bootransferwidget></div>
 ```
 
 
